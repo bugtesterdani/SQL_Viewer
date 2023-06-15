@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Graph.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProgressBar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Title.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIButtons.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
